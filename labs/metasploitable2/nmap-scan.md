@@ -38,6 +38,21 @@ nmap -sV 192.168.56.101 -v
 Key findings:
 port 21 ftp service: vsftpdf 2.3.4
 
+## Enumeration
+
+FTP
+- login msfadmin/msfadmin works
+- files accessible
+
+Telnet
+- not tested yet
+
+HTTP
+- web interface available
+
+MySQL
+- not tested
+
 ## Research
 Command:
 searchsploit vsftpd 2.3.4
