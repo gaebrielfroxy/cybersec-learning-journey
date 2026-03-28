@@ -8,3 +8,12 @@ top - real-time statistics about processes
 - SIGTERM - Kill the process, but allow it to do some cleanup tasks beforehand
 - SIGKILL - Kill the process - doesn't do any cleanup after the fact
 - SIGSTOP - Stop/suspend a process
+
+`systemctl [option] [service]` -  interact with the systemd process/daemon
+
+options:
+- Start
+- Stop
+- Enable
+- Disable
+- Status
