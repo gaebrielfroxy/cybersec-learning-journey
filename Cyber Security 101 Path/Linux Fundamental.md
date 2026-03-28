@@ -68,3 +68,5 @@ crontab -e  - edit crontab
 | DOW   | What day of the week to execute at        |
 | CMD   | The actual command that will be executed. |
 https://crontab-generator.org/ - makes crontab easier  
+
+ls -l -> long listing format - shows files with permissions
