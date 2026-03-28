@@ -69,4 +69,4 @@ crontab -e  - edit crontab
 | CMD   | The actual command that will be executed. |
 https://crontab-generator.org/ - makes crontab easier  
 
-ls -l -> long listing format - shows files with permissions
+remember : ls -l -> long listing format - shows files with permissions
