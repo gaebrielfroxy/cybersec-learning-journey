@@ -1,3 +1,40 @@
+| touch | touch          | Create file                  |
+| ----- | -------------- | ---------------------------- |
+| mkdir | make directory | Create a folder              |
+| cp    | copy           | Copy a file or folder        |
+| mv    | move           | Move a file or folder        |
+| rm    | remove         | Remove a file or folder      |
+| file  | file           | Determine the type of a file |
+
+File permissions
+
+| Section | Applies To | Example |
+| ------- | ---------- | ------- |
+| First 3 | Owner      | `rwx`   |
+| Next 3  | Group      | `rwx`   |
+| Last 3  | Others     | `rwx`   |
+r = read
+w = write
+x = execute
+
+| Permission    | Value |
+| ------------- | ----- |
+| Read (`r`)    | 4     |
+| Write (`w`)   | 2     |
+| Execute (`x`) | 1     |
+
+| Group       | Permissions | Calculation                                          | Value |
+| ----------- | ----------- | ---------------------------------------------------- | ----- |
+| Owner       | `rwx`       | 4 + 2 + 1                                            | 7     |
+| Group       | `rwx`       | 4 + 2 + 1                                            | 7     |
+| Others      | `rwx`       | 4 + 2 + 1                                            | 7     |
+|             |             |                                                      |       |
+| `rwxr-xr-x` | 755         | Owner can do everything, others can read and execute |       |
+| `rw-r--r--` | 644         | Owner can read/write, others can only read           |       |
+| `rwx------` | 700         | Only the owner has access                            |       |
+rwxrwxrwx = 777
+
+
 SCP - secure copy allows to transfer files between two   computers using the SSH  
 Source and Destination  
 wget - download files from web via HTTP   
