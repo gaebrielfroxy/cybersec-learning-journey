@@ -17,3 +17,14 @@ options:
 - Enable
 - Disable
 - Status
+crontabs - Crontab is one of the processes that is started during boot, which is responsible for facilitating and managing cron jobs.
+
+| Value | Description                               |
+| ----- | ----------------------------------------- |
+| MIN   | What minute to execute at                 |
+| HOUR  | What hour to execute at                   |
+| DOM   | What day of the month to execute at       |
+| MON   | What month of the year to execute at      |
+| DOW   | What day of the week to execute at        |
+| CMD   | The actual command that will be executed. |
+https://crontab-generator.org/ - makes crontab easier
