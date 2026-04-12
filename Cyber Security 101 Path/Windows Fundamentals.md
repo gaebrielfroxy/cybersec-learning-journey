@@ -23,3 +23,4 @@ view DNS servers and confirm that DHCP is enabled
 -  `-n` uses a numerical form for addresses and port numbers
 - `-abon` - all options above
 `tasklist` - processes list
+`taskkill /PID target_pid(e.g. 2115)` - kill process
