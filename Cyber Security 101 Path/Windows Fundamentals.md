@@ -15,5 +15,11 @@ view DNS servers and confirm that DHCP is enabled
 `nslookup` - look up host or domain and returns its IP address
 `nslookup example.com` - look up `example.com` using the default name server
 `nslookup example.com 1.1.1.1` - look up usimg name server
-`netstat` - displays current network connections and listening ports
+`netstat` - displays current network connections and listening ports:
+-  `-h` displays help
+-  `-a` displays all established connections and listening ports
+-  `-b` shows the program associated with each listening port and established connection
+-  `-o` reveals the process ID (PID) associated with the connection
+-  `-n` uses a numerical form for addresses and port numbers
+- `-abon` - all options above
 
