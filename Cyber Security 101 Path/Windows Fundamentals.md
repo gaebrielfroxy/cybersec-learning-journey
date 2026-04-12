@@ -6,4 +6,6 @@ more - view long list page by page
 driverquery - Enables an administrator to display a list   of installed device drivers  
 help before command - manual  
 cls - clear cmd  
-ipconfig  
+ipconfig /all - more info about ipconfig
+view DNS servers and confirm that DHCP is enabled
+ping target_name - send a specific ICMP packet and listen for a response
