@@ -22,4 +22,4 @@ view DNS servers and confirm that DHCP is enabled
 -  `-o` reveals the process ID (PID) associated with the connection
 -  `-n` uses a numerical form for addresses and port numbers
 - `-abon` - all options above
-
+`tasklist` - processes list
