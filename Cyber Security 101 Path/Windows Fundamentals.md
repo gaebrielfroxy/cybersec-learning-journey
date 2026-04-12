@@ -26,3 +26,5 @@ view DNS servers and confirm that DHCP is enabled
 - `/FI` set filter
 - `/FI "imagename eq example.exe"` - search task related to example.exe 
 `taskkill /PID target_pid(e.g. 2115)` - kill process
+`chdsk` - checks the file system and disk volumes for errors and bad sectors.
+`sfc /scannow` - scans system files for corruption and repairs them if possible.
