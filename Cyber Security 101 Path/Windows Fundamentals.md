@@ -1,5 +1,5 @@
-[[**CMD commands** ]]
-[[**PowerShell commands**]]
+[[CMD commands]]
+[[PowerShell commands]]
 
 
 
