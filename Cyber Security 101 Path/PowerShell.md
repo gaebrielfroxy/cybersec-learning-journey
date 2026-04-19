@@ -11,4 +11,11 @@ You can search in online repositories for extended functionality of cmdlets:
 `Find-Module -Name "PowerShell*"`
 Then you can install from repository with `Install-Module` - eg. `Install-Module -Name "PowerShellGet"`
 If You Don't know exact name of the module use wildcard `*`
+`Get-ChildItem` - list the files in location specified with 
+`-Path`  Parameter
+`Remove-Item`
+`Copy-Item`
+`Get-Content` - similar to `type` and `cat`
+
+
 
