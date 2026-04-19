@@ -9,4 +9,5 @@ eg. `Get-Help Get-Date` returns details about "Get-Date" cmdlet, related command
 You can search in online repositories for extended functionality of cmdlets:
 `Find-Module -Name "PowerShell*"`
 Then you can install from repository with `Install-Module` - eg. `Install-Module -Name "PowerShellGet"`
-If You Don't know exact name of the module use wildcard "*"
+If You Don't know exact name of the module use wildcard `*`
+
