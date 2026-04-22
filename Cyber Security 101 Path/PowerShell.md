@@ -21,7 +21,7 @@ If You Don't know exact name of the module use wildcard `*`
 eg. `Get-ChildItem | Where-Object -Property "Extenstion" -eq ".txt"` 
 `Where-Object` - filters files by their property
 
-**Operators**
+[[**Operators**]]
 `-ne` - not equal
 `-gt` - greater than
 `-ge` - greater than or equal to
@@ -30,3 +30,6 @@ eg. `Get-ChildItem | Where-Object -Property "Extenstion" -eq ".txt"`
 `-like` - filter properties that matched specific pattern (eg. 
 `Get-ChildItem | Where-Object -Property "Name"-like "ship*"`)
 
+`Select-Object` - select specific properties from objects or limit the number of objects returned
+eg. ````powershell
+Get-ChildItem | Select-Object Name,Length
