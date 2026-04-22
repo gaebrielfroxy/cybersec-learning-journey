@@ -28,5 +28,5 @@ eg. `Get-ChildItem | Where-Object -Property "Extenstion" -eq ".txt"`
 `-lt` - less than
 `-le` - less than or equal to
 `-like` - filter properties that matched specific pattern (eg. 
-Get-ChildItem | Where-Object -Property "Name" -like "ship*")
+`Get-ChildItem | Where-Object -Property "Name"-like "ship*"`)
 
