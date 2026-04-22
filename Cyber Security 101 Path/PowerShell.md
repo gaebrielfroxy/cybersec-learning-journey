@@ -17,5 +17,16 @@ If You Don't know exact name of the module use wildcard `*`
 `Copy-Item`
 `Get-Content` - similar to `type` and `cat`
 
+`Piping | Piping` - output of first command will be input of the second, with cmdlets it passes objects not just a text, which means also properties and description and interactions with data
+eg. `Get-ChildItem | Where-Object -Property "Extenstion" -eq ".txt"` 
+`Where-Object` - filters files by their property
 
+**Operators**
+`-ne` - not equal
+`-gt` - greater than
+`-ge` - greater than or equal to
+`-lt` - less than
+`-le` - less than or equal to
+`-like` - filter properties that matched specific pattern (eg. 
+Get-ChildItem | Where-Object -Property "Name" -like "ship*")
 
