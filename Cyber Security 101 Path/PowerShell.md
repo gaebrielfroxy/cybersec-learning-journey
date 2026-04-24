@@ -40,4 +40,5 @@ eg. `Get-ChildItem | Select-Object Name,Length
 `Get-Process` - list of all currently running processes
 `Get-Service` - lists services
 `Get-NetTCPConnection` - displays current TCP connections
-`Get-FileHash` 
+`Get-FileHash -Path .\name-of-file.extension`
+`Get-Item - Path "C:\smth/smth.txt" -Stream *` - view Alternate Data Stream from file
