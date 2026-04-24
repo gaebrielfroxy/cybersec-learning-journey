@@ -36,3 +36,5 @@ eg. `Get-ChildItem | Select-Object Name,Length
 
 `Get-ComputerInfo` - detailed system information
 `Get-LocalUser` - lists all local users accounts
+`Get-NetIPConfiguration` - network interface
+`Get-NetIPAddress` - detailed all IP addresses
