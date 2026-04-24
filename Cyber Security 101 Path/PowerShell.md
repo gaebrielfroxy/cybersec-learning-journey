@@ -33,3 +33,6 @@ eg. `Get-ChildItem | Where-Object -Property "Extenstion" -eq ".txt"`
 `Select-Object` - select specific properties from objects or limit the number of objects returned
 eg. `Get-ChildItem | Select-Object Name,Length
 `Select-String` - works like `grep` or `findstr`
+
+`Get-ComputerInfo` - detailed system information
+`Get-LocalUser` - lists all local users accounts
