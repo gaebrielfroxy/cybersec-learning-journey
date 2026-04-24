@@ -21,7 +21,7 @@ If You Don't know exact name of the module use wildcard `*`
 eg. `Get-ChildItem | Where-Object -Property "Extenstion" -eq ".txt"` 
 `Where-Object` - filters files by their property
 
-[[**Operators**]]
+**Operators for Where-Object** 
 `-ne` - not equal
 `-gt` - greater than
 `-ge` - greater than or equal to
