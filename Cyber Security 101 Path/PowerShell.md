@@ -38,3 +38,6 @@ eg. `Get-ChildItem | Select-Object Name,Length
 `Get-LocalUser` - lists all local users accounts
 `Get-NetIPConfiguration` - network interface
 `Get-NetIPAddress` - detailed all IP addresses
+`Get-Process` - list of all currently running processes
+`Get-Service` - lists services
+`Get-NetTCPConnection` - displays current TCP connections
