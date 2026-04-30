@@ -69,4 +69,6 @@ crontab -e  - edit crontab
 | CMD   | The actual command that will be executed. |
 https://crontab-generator.org/ - makes crontab easier  
 
-remember : ls -l -> long listing format - shows files with permissions
+remember : ls -l -> long listing format - shows files with permission  
+
+'iwconfig' - wireless network devices
