@@ -71,4 +71,8 @@ https://crontab-generator.org/ - makes crontab easier
 
 remember : ls -l -> long listing format - shows files with permission  
 
-'iwconfig' - wireless network devices
+`iwconfig` - wireless network devices
+
+`echo $SHELL` - check current shell
+
+`cat /etc/shells` - check available shells for your OS

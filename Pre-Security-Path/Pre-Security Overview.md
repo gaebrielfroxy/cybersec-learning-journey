@@ -1,7 +1,7 @@
 # Pre-Security Learning Path – TryHackMe
-Ukończone: 100% (luty/marzec 2026)
+Completed: 100% (luty/marzec 2026)
 
-## Ukończone moduły (kluczowe takeaways)
+## Key takeaways
 - Introduction to Cyber Security: podstawy CIA triad, ataki vs obrona, dlaczego bezpieczeństwo jest ważne.
 - Network Fundamentals: model OSI, TCP/IP, porty, Wireshark intro – nauczyłem się czytać podstawowy ruch sieciowy.
 - How the Web Works: HTTP/HTTPS, request/response, cookies, podstawy web vulnerabilities (OWASP intro).
