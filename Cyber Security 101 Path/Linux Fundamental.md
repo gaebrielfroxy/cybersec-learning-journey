@@ -76,3 +76,8 @@ remember : ls -l -> long listing format - shows files with permission
 `echo $SHELL` - check current shell
 
 `cat /etc/shells` - check available shells for your OS
+
+type the shell name you want to switch to, eg. :
+-  `zsh` 
+- `rbash`
+-  `sh` 
