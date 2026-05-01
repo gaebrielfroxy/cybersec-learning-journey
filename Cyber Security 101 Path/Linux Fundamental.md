@@ -81,3 +81,10 @@ type the shell name you want to switch to, eg. :
 -  `zsh` 
 - `rbash`
 -  `sh` 
+
+to permamently change default shell:
+`chsh -s /usr/bin/nameofshell` 
+
+[[BASH - Bourne Again Shell]]
+[[FISH - Friendly Interactive Shell]] 
+[[ZSH - Z Shell]] 
