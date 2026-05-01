@@ -88,3 +88,5 @@ to permamently change default shell:
 [[BASH - Bourne Again Shell]]
 [[FISH - Friendly Interactive Shell]] 
 [[ZSH - Z Shell]] 
+
+[[Scripting in shell]] 
