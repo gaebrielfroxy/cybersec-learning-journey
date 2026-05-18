@@ -1,3 +1,6 @@
+# Current status
+18.05.2026r. Working on lab
+
 # About me
 
 Aspiring Cybersecurity Specialist  
@@ -5,5 +8,4 @@ TryHackMe PreSecurity Path Completed 100%
 Started Cyber Security 101 Path  
 Building homelab with Kali Linux and Metasploitable 2  
 
-# Current status
-18.05.2026r. Working on lab
+
