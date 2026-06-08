@@ -21,8 +21,11 @@ To learn ActiveDirectory for Helpdesk role, I created HomeLab with Windows Serve
 |:------------|:------------|:-----------------|
 | No ping between VMs  | Server had two cards with same IP `192.168.100.10`  | Network Card 2 (NAT) set to DHCP, Card 1 static  |
 | Client crashed because of 3D acceleration `VBoxManage modifyvm "DC01" --accelerate3d on`  | VBoxVGA controller doesn't support 3D acceleration  | Changed controller to `vmsvga`  |
-| Windows Server 2025 didn't work on VM  | VM showed "No bootable medium found" but ISO was properly attached  | I switched to Windows Server 2022 instead  |
-I had difficulties with GUI on VirtualBox because of Portal issues on ArchLinux so I created VMs through terminal.  
+| Windows Server 2025 didn't work on VM  | VM showed "No bootable medium found" but ISO was properly attached  | I switched to Windows Server 2022 instead  | 
+| GUI in VirtualBox and other apps (Obsidian) didn't work properly on Arch Linux | `xdg-desktop-portal` issues - the service that handles file dialogs and app integration was broken  | Workaround - configured everything via CLI (`VBoxManage`) instead of GUI  |
 
-
-
+## What I've learned
+- Creating users, groups and OU
+- Resetting passwords
+- Block accounts
+  
