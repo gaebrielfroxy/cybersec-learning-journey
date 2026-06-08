@@ -6,11 +6,10 @@ Developing skills for IT Support / Service Desk roles.
 Aspiring IT Support Specialist focused on Windows Server, Active Directory, networking fundamentals and Linux systems.  
 
 I build home lab environments to practice:  
-
-Windows Server administration  
-Active Directory management  
-Network troubleshooting  
-Linux system configuration  
+- Windows Server administration
+- Active Directory management
+- Network troubleshooting
+- Linux system configuration  
 
 
 TryHackMe PreSecurity Path Completed 100%    
