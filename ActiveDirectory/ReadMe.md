@@ -20,12 +20,26 @@ To learn ActiveDirectory for Helpdesk role, I created HomeLab with Windows Serve
 | Issue | What was wrong | How it was fixed |
 |:------------|:------------|:-----------------|
 | No ping between VMs  | Server had two cards with same IP `192.168.100.10`  | Network Card 2 (NAT) set to DHCP, Card 1 static  |
+
+<img width="761" height="558" alt="screenshot_20260526_214645" src="https://github.com/user-attachments/assets/b633ff4c-f0bb-4e56-aac3-f9cbf9fd8a74" />
+<img width="640" height="910" alt="screenshot_20260527_200235" src="https://github.com/user-attachments/assets/123df926-a4d6-4651-81cb-d3d276c986d3" />
+
+| Issue | What was wrong | How it was fixed |
+|:------------|:------------|:-----------------|
 | Client crashed because of 3D acceleration `VBoxManage modifyvm "DC01" --accelerate3d on`  | VBoxVGA controller doesn't support 3D acceleration  | Changed controller to `vmsvga`  |
-| Windows Server 2025 didn't work on VM  | VM showed "No bootable medium found" but ISO was properly attached  | I switched to Windows Server 2022 instead  | 
-| GUI in VirtualBox and other apps (Obsidian) didn't work properly on Arch Linux | `xdg-desktop-portal` issues - the service that handles file dialogs and app integration was broken  | Workaround - configured everything via CLI (`VBoxManage`) instead of GUI  |
+| Windows Server 2025 didn't work on VM  | GUI metod failed for unknown reason | Used PowerShell instead: `Add-Computer -DomainName "adlab.local" -Credential ADLAB\Administrator -Restart`  | 
+| Couldn't join Client01 via GUI  | VM showed "No bootable medium found" but ISO was properly attached  | I switched to Windows Server 2022 instead  | 
+| GUI in VirtualBox and other apps (Obsidian) didn't work properly on Arch Linux | `xdg-desktop-portal` issues - the service that handles file dialogs and app integration was broken  | Workaround - configured everything via CLI (`VBoxManage`) instead of GUI  |  
+
+<img width="959" height="1040" alt="screenshot_20260524_172545" src="https://github.com/user-attachments/assets/064ea479-e8c3-4835-bc9d-fed8883e829e" />
+
 
 ## What I've learned
 - Creating users, groups and OU
 - Resetting passwords
 - Block accounts
-  
+
+  <img width="958" height="800" alt="screenshot_20260526_222636" src="https://github.com/user-attachments/assets/566c8479-d480-4f61-9efc-964546f23e0c" />
+
+  <img width="957" height="785" alt="screenshot_20260526_222718" src="https://github.com/user-attachments/assets/884017db-f947-468a-a2b9-6ff1e7798b52" />
+
