@@ -21,8 +21,11 @@ To learn ActiveDirectory for Helpdesk role, I created HomeLab with Windows Serve
 |:------------|:------------|:-----------------|
 | No ping between VMs  | Server had two cards with same IP `192.168.100.10`  | Network Card 2 (NAT) set to DHCP, Card 1 static  |
 
-<img width="761" height="558" alt="screenshot_20260526_214645" src="https://github.com/user-attachments/assets/b633ff4c-f0bb-4e56-aac3-f9cbf9fd8a74" />
-<img width="640" height="910" alt="screenshot_20260527_200235" src="https://github.com/user-attachments/assets/123df926-a4d6-4651-81cb-d3d276c986d3" />
+<img width="956" height="775" alt="screenshot_20260611_141518" src="https://github.com/user-attachments/assets/5000054a-a0af-43f6-865b-fa374395e697" />
+<img width="407" height="456" alt="screenshot_20260611_141459" src="https://github.com/user-attachments/assets/4665b054-3170-417b-9780-d17ea63b7851" />
+<img width="1030" height="812" alt="screenshot_20260611_140954" src="https://github.com/user-attachments/assets/be753d0f-b9be-4233-921e-55945520564a" />
+
+
 
 | Issue | What was wrong | How it was fixed |
 |:------------|:------------|:-----------------|
